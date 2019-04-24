@@ -1,0 +1,415 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 24 19:55:21 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>43 seconds (43510 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.TestAutomation.MA.Home.MMT_TestCases.TC_001()'><b>TC_001</b><br>Test class: com.TestAutomation.MA.Home.MMT_TestCases<br/>
+<a href="#Output-1272123492" onClick='toggleBox("Output-1272123492", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1272123492" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1272123492">
+Found the element : Flights<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //span[text()='Flights']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //span[text()='Flights']]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //span[text()='Flights']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //span[text()='Flights']]<br/>
+Found the element : ROUND TRIP<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //li[contains(text(),'Round Trip')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //li[contains(text(),'Round Trip')]]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //li[contains(text(),'Round Trip')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //li[contains(text(),'Round Trip')]]<br/>
+Found the element : <br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> id: fromCity]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> id: fromCity]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> id: fromCity]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> id: fromCity]<br/>
+Found the element : <br/>
+Found the element : <br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //input[@placeholder='From']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //input[@placeholder='From']]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //input[@placeholder='From']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //input[@placeholder='From']]<br/>
+Found the element : <br/>
+Found the element : Delhi, India<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='makeFlex hrtlCenter']/div/p[contains(text(),'Delhi')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='makeFlex hrtlCenter']/div/p[contains(text(),'Delhi')]]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='makeFlex hrtlCenter']/div/p[contains(text(),'Delhi')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='makeFlex hrtlCenter']/div/p[contains(text(),'Delhi')]]<br/>
+Found the element : <br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> id: toCity]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> id: toCity]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> id: toCity]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> id: toCity]<br/>
+Found the element : <br/>
+Found the element : <br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //input[@placeholder='To']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //input[@placeholder='To']]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //input[@placeholder='To']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //input[@placeholder='To']]<br/>
+Found the element : <br/>
+Found the element : Bangalore, India<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='makeFlex hrtlCenter']/div/p[contains(text(),'Bangalore')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='makeFlex hrtlCenter']/div/p[contains(text(),'Bangalore')]]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='makeFlex hrtlCenter']/div/p[contains(text(),'Bangalore')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='makeFlex hrtlCenter']/div/p[contains(text(),'Bangalore')]]<br/>
+Found the element : DEPARTURE
+25 Apr19
+Thursday<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //label[contains(@for,'departure')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //label[contains(@for,'departure')]]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //label[contains(@for,'departure')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //label[contains(@for,'departure')]]<br/>
+Found the element : 24<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='DayPicker-Week']/div[contains(@class,'today')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='DayPicker-Week']/div[contains(@class,'today')]]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='DayPicker-Week']/div[contains(@class,'today')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[@class='DayPicker-Week']/div[contains(@class,'today')]]<br/>
+Found the element : 24<br/>
+Found the element : 1<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[contains(@aria-label,'May')]/div[@class='dateInnerCell']/p[contains(text(),'1')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[contains(@aria-label,'May')]/div[@class='dateInnerCell']/p[contains(text(),'1')]]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[contains(@aria-label,'May')]/div[@class='dateInnerCell']/p[contains(text(),'1')]]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //div[contains(@aria-label,'May')]/div[@class='dateInnerCell']/p[contains(text(),'1')]]<br/>
+Found the element : SEARCH<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //a[@class='primaryBtn font24 latoBlack widgetSearchBtn ']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //a[@class='primaryBtn font24 latoBlack widgetSearchBtn ']]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //a[@class='primaryBtn font24 latoBlack widgetSearchBtn ']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //a[@class='primaryBtn font24 latoBlack widgetSearchBtn ']]<br/>
+Found the element : TRIP TYPE
+Round Trip
+FROM
+TO
+DEPART
+RETURN
+PASSENGERS & CLASS
+SEARCH<br/>
+Found the element : TRIP TYPE
+Round Trip
+FROM
+TO
+DEPART
+RETURN
+PASSENGERS & CLASS
+SEARCH<br/>
+Found the element : TRIP TYPE
+Round Trip
+FROM
+TO
+DEPART
+RETURN
+PASSENGERS & CLASS
+SEARCH<br/>
+Found the element : IndiGo |6E - 2977
+23:10
+New Delhi
+02hrs 45mins
+Non stop
+01:55+1 DAY
+Bengaluru
+Rs 23,156
+Free seats available<br/>
+Found the element : IndiGo |6E - 2977<br/>
+Found the element : Air India |AI - 317Air India |AI - 603<br/>
+Found the element : IndiGo |6E - 2289
+22:20
+Bengaluru
+02hrs 50mins
+Non stop
+01:10+1 DAY
+New Delhi
+Rs 6,020
+Free seats available<br/>
+Found the element : IndiGo |6E - 2289<br/>
+Found the element : Spicejet |SG - 8720<br/>
+Found the element : IndiGo |6E - 2484<br/>
+Found the element : Spicejet |SG - 8718<br/>
+Found the element : Spicejet |SG - 198<br/>
+Found the element : Go Air |G8 - 118<br/>
+Found the element : IndiGo |6E - 2132<br/>
+Found the element : Go Air |G8 - 116<br/>
+Found the element : Go Air |G8 - 285Go Air |G8 - 285<br/>
+Found the element : Air India |AI - 804<br/>
+Found the element : Air India |AI - 501<br/>
+Found the element : IndiGo |6E - 2625<br/>
+Found the element : Spicejet |SG - 136<br/>
+Found the element : Spicejet |SG - 192<br/>
+Found the element : Vistara |UK - 814<br/>
+Found the element : Go Air |G8 - 120<br/>
+Found the element : IndiGo |6E - 2783<br/>
+Found the element : IndiGo |6E - 2808<br/>
+Found the element : IndiGo |6E - 2135<br/>
+Found the element : IndiGo |6E - 2716<br/>
+Found the element : IndiGo |6E - 2305<br/>
+Found the element : IndiGo |6E - 2228<br/>
+Found the element : Air India |AI - 505<br/>
+Found the element : Air India |AI - 503<br/>
+Found the element : Vistara |UK - 810<br/>
+Found the element : Vistara |UK - 816<br/>
+Found the element : Vistara |UK - 812<br/>
+Found the element : IndiGo |6E - 2475<br/>
+Found the element : IndiGo |6E - 2246<br/>
+Found the element : AirAsia |I5 - 2878<br/>
+Found the element : AirAsia |I5 - 722<br/>
+Found the element : AirAsia |I5 - 741<br/>
+Found the element : Air India |AI - 173<br/>
+Found the element : Air India |AI - 977Air India |AI - 127<br/>
+Found the element : Vistara |UK - 818<br/>
+Found the element : IndiGo |6E - 2988<br/>
+Found the element : IndiGo |6E - 2367<br/>
+Found the element : IndiGo |6E - 2943<br/>
+Found the element : Air India |AI - 738Air India |AI - 76<br/>
+Found the element : IndiGo |6E - 2065IndiGo |6E - 2065<br/>
+Found the element : Go Air |G8 - 241Go Air |G8 - 172<br/>
+Found the element : IndiGo |6E - 6794IndiGo |6E - 6489<br/>
+Found the element : Go Air |G8 - 395Go Air |G8 - 465<br/>
+Found the element : Go Air |G8 - 373Go Air |G8 - 2512<br/>
+Found the element : Go Air |G8 - 803Go Air |G8 - 714<br/>
+Found the element : IndiGo |6E - 456IndiGo |6E - 964<br/>
+Found the element : Vistara |UK - 858Vistara |UK - 994<br/>
+Found the element : Vistara |UK - 858Vistara |UK - 960<br/>
+Found the element : Air India |AI - 772Air India |AI - 701<br/>
+Found the element : Air India |AI - 564Air India |AI - 539<br/>
+Found the element : Air India |AI - 9505Air India |AI - 511<br/>
+Found the element : Vistara |UK - 854Vistara |UK - 988<br/>
+Found the element : Vistara |UK - 852Vistara |UK - 960<br/>
+Found the element : Vistara |UK - 864Vistara |UK - 944<br/>
+Found the element : Vistara |UK - 854Vistara |UK - 950<br/>
+Found the element : Vistara |UK - 864Vistara |UK - 902<br/>
+Found the element : Vistara |UK - 854Vistara |UK - 986<br/>
+Found the element : Vistara |UK - 852Vistara |UK - 944<br/>
+Found the element : Vistara |UK - 852Vistara |UK - 902<br/>
+Found the element : Vistara |UK - 864Vistara |UK - 996<br/>
+Found the element : Air India |AI - 640Air India |AI - 809<br/>
+Found the element : Spicejet |SG - 516Spicejet |SG - 8184<br/>
+Found the element : Air India |AI - 589Air India |AI - 18<br/>
+Found the element : Go Air |G8 - 241Go Air |G8 - 2541<br/>
+Found the element : IndiGo |6E - 528IndiGo |6E - 528<br/>
+Found the element : Air India |AI - 604Air India |AI - 677<br/>
+Found the element : Air India |AI - 640Air India |AI - 677<br/>
+Found the element : Air India |AI - 604Air India |AI - 687<br/>
+Found the element : Vistara |UK - 864Vistara |UK - 875Vistara |UK - 890<br/>
+Found the element : Air India |AI - 507Air India |AI - 507Air India |AI - 144<br/>
+Found the element : Air India |AI - 507Air India |AI - 507Air India |AI - 660<br/>
+Found the element : Air India |AI - 507Air India |AI - 507Air India |AI - 888<br/>
+Found the element : Air India |AI - 507Air India |AI - 507Air India |AI - 314<br/>
+Found the element : Air India |AI - 507Air India |AI - 507Air India |AI - 687<br/>
+Found the element : Air India |AI - 507Air India |AI - 507Air India |AI - 442Air India |AI - 442<br/>
+Found the element : Air India |AI - 608Air India |AI - 101<br/>
+Found the element : Air India |AI - 604Air India |AI - 9627Air India |AI - 9627Air India |AI - 9627<br/>
+Found the element : Vistara |UK - 852Vistara |UK - 841Vistara |UK - 848<br/>
+Found the element : Vistara |UK - 864Vistara |UK - 771Vistara |UK - 778<br/>
+Found the element : Air India |AI - 640Air India |AI - 645Air India |AI - 476<br/>
+Found the element : Non Stop<br/>
+Clicking on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //label[starts-with(@for,'filter_stop')]/span[text()='Non Stop']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //label[starts-with(@for,'filter_stop')]/span[text()='Non Stop']]<br/>
+Clicked on: [[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //label[starts-with(@for,'filter_stop')]/span[text()='Non Stop']]<br/>
+[[ChromeDriver: chrome on MAC (bd1673ccb8d2fdd169dd63f99c57e6a5)] -> xpath: //label[starts-with(@for,'filter_stop')]/span[text()='Non Stop']]<br/>
+Found the element : TRIP TYPE
+Round Trip
+FROM
+TO
+DEPART
+RETURN
+PASSENGERS & CLASS
+SEARCH<br/>
+Found the element : Non Stop<br/>
+Found the element : Non Stop<br/>
+Found the element : Non Stop<br/>
+Found the element : IndiGo |6E - 2977
+23:10
+New Delhi
+02hrs 45mins
+Non stop
+01:55+1 DAY
+Bengaluru
+Rs 23,156
+Free seats available<br/>
+Found the element : IndiGo |6E - 2977<br/>
+Found the element : IndiGo |6E - 2289
+22:20
+Bengaluru
+02hrs 50mins
+Non stop
+01:10+1 DAY
+New Delhi
+Rs 6,020
+Free seats available<br/>
+Found the element : IndiGo |6E - 2289<br/>
+Found the element : Spicejet |SG - 8720<br/>
+Found the element : IndiGo |6E - 2484<br/>
+Found the element : Spicejet |SG - 8718<br/>
+Found the element : Spicejet |SG - 198<br/>
+Found the element : Go Air |G8 - 118<br/>
+Found the element : IndiGo |6E - 2132<br/>
+Found the element : Go Air |G8 - 116<br/>
+Found the element : Air India |AI - 804<br/>
+Found the element : Air India |AI - 501<br/>
+Found the element : IndiGo |6E - 2625<br/>
+Found the element : Spicejet |SG - 136<br/>
+Found the element : Spicejet |SG - 192<br/>
+Found the element : Vistara |UK - 814<br/>
+Found the element : Go Air |G8 - 120<br/>
+Found the element : IndiGo |6E - 2783<br/>
+Found the element : IndiGo |6E - 2808<br/>
+Found the element : IndiGo |6E - 2135<br/>
+Found the element : IndiGo |6E - 2716<br/>
+Found the element : IndiGo |6E - 2305<br/>
+Found the element : IndiGo |6E - 2228<br/>
+Found the element : Air India |AI - 505<br/>
+Found the element : Air India |AI - 503<br/>
+Found the element : Vistara |UK - 810<br/>
+Found the element : Vistara |UK - 816<br/>
+Found the element : Vistara |UK - 812<br/>
+Found the element : IndiGo |6E - 2475<br/>
+Found the element : IndiGo |6E - 2246<br/>
+Found the element : AirAsia |I5 - 2878<br/>
+Found the element : AirAsia |I5 - 722<br/>
+Found the element : AirAsia |I5 - 741<br/>
+Found the element : Air India |AI - 173<br/>
+Found the element : Vistara |UK - 818<br/>
+Found the element : IndiGo |6E - 2988<br/>
+Found the element : IndiGo |6E - 2367<br/>
+Found the element : IndiGo |6E - 2943<br/>
+Found the element : IndiGo |6E - 2977
+23:10
+New Delhi
+02hrs 45mins
+Non stop
+01:55+1 DAY
+Bengaluru
+Rs 23,156
+Free seats available<br/>
+Found the element : IndiGo |6E - 2977<br/>
+Found the element : IndiGo |6E - 2289
+22:20
+Bengaluru
+02hrs 50mins
+Non stop
+01:10+1 DAY
+New Delhi
+Rs 6,020
+Free seats available<br/>
+Found the element : IndiGo |6E - 2289<br/>
+Found the element : Spicejet |SG - 8720<br/>
+Found the element : IndiGo |6E - 2484<br/>
+Found the element : Spicejet |SG - 8718<br/>
+Found the element : Spicejet |SG - 198<br/>
+Found the element : Go Air |G8 - 118<br/>
+Found the element : IndiGo |6E - 2132<br/>
+Found the element : Go Air |G8 - 116<br/>
+Found the element : Air India |AI - 804<br/>
+Found the element : Air India |AI - 501<br/>
+Found the element : IndiGo |6E - 2625<br/>
+Found the element : Spicejet |SG - 136<br/>
+Found the element : Spicejet |SG - 192<br/>
+Found the element : Vistara |UK - 814<br/>
+Found the element : Go Air |G8 - 120<br/>
+Found the element : IndiGo |6E - 2783<br/>
+Found the element : IndiGo |6E - 2808<br/>
+Found the element : IndiGo |6E - 2135<br/>
+Found the element : IndiGo |6E - 2716<br/>
+Found the element : IndiGo |6E - 2305<br/>
+Found the element : IndiGo |6E - 2228<br/>
+Found the element : Air India |AI - 505<br/>
+Found the element : Air India |AI - 503<br/>
+Found the element : Vistara |UK - 810<br/>
+Found the element : Vistara |UK - 816<br/>
+Found the element : Vistara |UK - 812<br/>
+Found the element : IndiGo |6E - 2475<br/>
+Found the element : IndiGo |6E - 2246<br/>
+Found the element : AirAsia |I5 - 2878<br/>
+Found the element : AirAsia |I5 - 722<br/>
+Found the element : AirAsia |I5 - 741<br/>
+Found the element : Air India |AI - 173<br/>
+Found the element : Vistara |UK - 818<br/>
+Found the element : IndiGo |6E - 2988<br/>
+Found the element : IndiGo |6E - 2367<br/>
+Found the element : IndiGo |6E - 2943<br/>
+Found the element : <br/>
+Found the element : <br/>
+Found the element : Rs 29,550<br/>
+Found the element : Rs 23,156<br/>
+Found the element : Rs 6,394<br/>
+Found the element : Rs 23,156<br/>
+Found the element : Rs 6,394<br/>
+Found the element : Rs 29,550<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.TestAutomation.MA.Home.MMT_TestCases@1efed156</td></tr>
+</table><p>
+</body>
+</html>

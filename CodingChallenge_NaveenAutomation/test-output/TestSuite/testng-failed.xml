@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.TestAutomation.MA.customListener.Test_Listener"/>
+  </listeners>
+  <test name="BatchTest-Listeners(failed)">
+    <classes>
+      <class name="com.TestAutomation.MA.Home.TC001_LoginToMA">
+        <methods>
+          <include name="getresult"/>
+          <include name="init"/>
+          <include name="test_loginToMA"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.TestAutomation.MA.Home.TC001_LoginToMA -->
+    </classes>
+  </test> <!-- BatchTest-Listeners(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

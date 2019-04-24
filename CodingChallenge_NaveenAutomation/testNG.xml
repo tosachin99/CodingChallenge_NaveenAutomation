@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="TestSuite">
+<!-- parallel="classes" thread-count = "2" -->
+	<listeners>
+
+		<listener class-name="com.TestAutomation.MA.customListener.Test_Listener"></listener>
+
+	</listeners>
+
+	<test name="BatchTest-Listeners">
+		<classes>
+			<class name="com.TestAutomation.MA.Home.TC001_LoginToMA" />
+			<class name="com.TestAutomation.MA.Home.TC002_VerifyTest2" />
+		</classes>
+
+	</test>
+
+</suite>
