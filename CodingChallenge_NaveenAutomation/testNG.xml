@@ -11,12 +11,11 @@
 
 	</listeners>
 
-	<test name="BatchTest-Listeners">
+	
+	<test name="Selenium Coding challenge">
 		<classes>
-			<class name="com.TestAutomation.MA.Home.TC001_LoginToMA" />
-			<class name="com.TestAutomation.MA.Home.TC002_VerifyTest2" />
+			<class name="com.TestAutomation.MA.Home.MMT_TestCases" />
 		</classes>
 
 	</test>
-
 </suite>
