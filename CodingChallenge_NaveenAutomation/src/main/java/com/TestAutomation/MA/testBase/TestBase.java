@@ -71,7 +71,7 @@ public class TestBase implements Constants{
 		final String filePath = System.getProperty("user.dir") + "/src/main/java/com/TestAutomation/MA/ExecutionReport/" + "_"+ formater.format(calendar.getTime()) + ".html";
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(filePath);
 		htmlReporter.config().setDocumentTitle("Regression Reports");
-		htmlReporter.config().setReportName("MyAccess Automation Reports By Sachin Hiremath");
+		htmlReporter.config().setReportName("Automation Reports By Sachin Hiremath");
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		htmlReporter.config().setTheme(Theme.STANDARD);
 
